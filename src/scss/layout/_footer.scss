@@ -1,16 +1,59 @@
 .footer{
     background-color: $color-grey1;
-    color: $color-black;
+    color: $color-white;
     font-family: $font-main;
     line-height: 30px;
-    display: flex;
-    flex-direction: column;
+    padding-bottom: 35px;
+    position: relative;
+
+    &__links{
+        font-family: $font-main;
+        display: flex;
+        flex-direction: column;
+        color: $color-white;
+        font-size: 16px;
+        align-content: center;
+        justify-content: center;
+        padding: 15px;
+      
+        
+    }
+}
+
+.list1{
+    order: 2;
+}
+
+
+.list2{
+    order: 1;
+}
+
+
+.buttonfooter{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: none;
+
+    
+
+
+
+
 }
 
 
 
 
 
+.heartfooter{
+    text-align: center;
+}
 
 
-.footerheart
