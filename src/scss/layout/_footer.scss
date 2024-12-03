@@ -1,9 +1,9 @@
 .footer{
-    background-color: $color-grey1;
+    background-color: $color-grey2;
     color: $color-white;
     font-family: $font-main;
     line-height: 30px;
-    padding-bottom: 35px;
+    padding: 35px 15px 15px 15px;
     position: relative;
 
     &__links{
@@ -12,22 +12,17 @@
         flex-direction: column;
         color: $color-white;
         font-size: 16px;
-        align-content: center;
+        align-items: center;
         justify-content: center;
         padding: 15px;
-      
-        
     }
 }
 
-.list1{
-    order: 2;
+.colorlink{
+    color: $color-white;
+    text-decoration: none;
 }
 
-
-.list2{
-    order: 1;
-}
 
 
 .buttonfooter{
@@ -50,10 +45,12 @@
 
 
 
-
-
 .heartfooter{
+    font-size: 14px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-
+.heart{
+    color: $color-green1;
+}
