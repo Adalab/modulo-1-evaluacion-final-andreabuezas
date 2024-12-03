@@ -24,10 +24,25 @@
     &__content{
         color: $color-five;
         font-family: $font-main; 
-        font-weight: bold;
-        line-height: 30px;
+        font-weight: normal;
         font-size: 18px;
+        line-height: 30px;
         margin-top: 10px;
     }
+
+    &__button{
+        color: $color-three;
+        background-color: $color-primary;
+        border: 2px solid $color-three;
+        border-radius: 25px;
+        font-family: $font-main;
+        font-size: 18px;
+        width: 160px;
+        margin-top: 40px ;
+        margin-bottom: 10px ;
+
+        padding: 8px;
+    }
+
 
 }
