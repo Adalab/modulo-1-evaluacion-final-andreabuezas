@@ -1,0 +1,33 @@
+.whitesection{
+    padding: 13px;
+
+
+    &__title{
+        color: $color-three;
+        font-family: $font-main;
+        font-weight: normal;
+        font-size: 14px;
+        height: 30px;
+        margin-top: 20px;
+    }
+ 
+    &__title2{
+        color: $color-second;
+        font-family: $font-title;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__content{
+        color: $color-five;
+        font-family: $font-main; 
+        font-weight: bold;
+        line-height: 30px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+}
