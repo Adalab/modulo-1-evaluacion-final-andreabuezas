@@ -6,8 +6,13 @@
     padding: 35px 15px 15px 15px;
     position: relative;
 
+    @media (min-width:768px) {
+       display: flex;
+       flex-direction: row;
+    }
+
+
     &__links{
-        font-family: $font-main;
         display: flex;
         flex-direction: column;
         color: $color-white;
@@ -18,11 +23,11 @@
     }
 }
 
+
 .colorlink{
     color: $color-white;
     text-decoration: none;
 }
-
 
 
 .buttonfooter{
@@ -35,14 +40,7 @@
     border-radius: 50%;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     border: none;
-
-    
-
-
-
-
 }
-
 
 
 .heartfooter{
@@ -50,6 +48,7 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
 
 .heart{
     color: $color-green1;

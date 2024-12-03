@@ -13,6 +13,10 @@
         &__2{
             font-size: 20px;
             padding: 5px;
+
+            @media (min-width: 768px) {
+                font-size: 20px;
+            }
         }
     }
 }
@@ -22,6 +26,13 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     margin-bottom: 10px;
+
+    @media (min-width: 768px) {
+        grid-template-rows: none;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px;
+    }
+
     &__content{
         margin: 0 auto;
         margin-top: 20px;
@@ -38,10 +49,15 @@
         &__p{
             font-size: 14px;
             padding-top: 10px;
+
+            @media (min-width:768px) {
+                font-size: 18px;
+            }
         }
 
     }
 }
+
 
 .buttonmain{
     background-color:$color-green1 ;
@@ -58,6 +74,10 @@
     
     &:hover{
         transform: scale(1.5);
+    }
+
+    @media (min-width:768px) {
+        margin-bottom: 40px;
     }
 
 }
