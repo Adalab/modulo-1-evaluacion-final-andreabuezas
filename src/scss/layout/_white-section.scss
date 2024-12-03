@@ -3,7 +3,7 @@
 
 
     &__title{
-        color: $color-three;
+        color: $color-green1;
         font-family: $font-main;
         font-weight: normal;
         font-size: 14px;
@@ -12,7 +12,7 @@
     }
  
     &__title2{
-        color: $color-second;
+        color: $color-black;
         font-family: $font-title;
         font-weight: bold;
         font-size: 22px;
@@ -22,7 +22,7 @@
     }
 
     &__content{
-        color: $color-five;
+        color: $color-grey2;
         font-family: $font-main; 
         font-weight: normal;
         font-size: 18px;
@@ -31,16 +31,15 @@
     }
 
     &__button{
-        color: $color-three;
-        background-color: $color-primary;
-        border: 2px solid $color-three;
+        color: $color-green1;
+        background-color: $color-white;
+        border: 2px solid $color-green1;
         border-radius: 25px;
         font-family: $font-main;
         font-size: 18px;
         width: 160px;
         margin-top: 40px ;
         margin-bottom: 10px ;
-
         padding: 8px;
     }
 

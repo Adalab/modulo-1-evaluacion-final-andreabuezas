@@ -5,7 +5,7 @@
     background-size: cover;
 
     &__bottonmenu {
-        background-color: $color-three;
+        background-color: $color-green1;
         padding: 15px;
         border: none;
         position: fixed;
@@ -25,7 +25,7 @@
 
         &__title1{
             font-family: $font-title;
-            color: $color-primary;
+            color: $color-white;
             font-weight: bold;
             font-size: 30px;
             line-height: 50px;
@@ -40,7 +40,7 @@
             padding-bottom: 30px ;
             height: 40px;
             margin: 0 auto;
-            color: $color-primary;
+            color: $color-white;
             font-family: $font-main;
             font-size: 16px;
             line-height: 19px;
@@ -54,7 +54,7 @@
 .buttom {
     width: 40px;
     height: 40px ;
-    background-color: $color-primary;
+    background-color: $color-white;
     border-radius: 50%;
     position: absolute;
     bottom: 50px;
