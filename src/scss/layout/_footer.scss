@@ -13,6 +13,10 @@
        justify-content: space-around;
     }
 
+    @media (min-width:1280px){
+        align-items: flex-start;
+    }
+
 
     &__links{
         display: flex;
@@ -27,8 +31,8 @@
             display: flex;
             flex-direction: column;
             order: 2;
-            align-items: self-start;
-         }
+            align-items: flex-start;
+        }
     }
 }
 
